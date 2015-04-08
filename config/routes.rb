@@ -2,10 +2,10 @@ Rails.application.routes.draw do
 
   resources :pages
   resources :order_teas
-  resources :charges
   resources :approveds
+  resources :charges
 
-  root 'pages#index'
+  root 'order_teas#new'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

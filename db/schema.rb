@@ -17,7 +17,9 @@ ActiveRecord::Schema.define(version: 20150401205500) do
   enable_extension "plpgsql"
 
   create_table "approveds", force: :cascade do |t|
-    t.text     "comments"
+    t.string   "summary"
+    t.string   "thank_you"
+    t.string   "decline"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
