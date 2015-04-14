@@ -16,7 +16,7 @@ end
 
 
 	private
-  	def user_params
-  	params.require(:order).permit(:tealeaf, :base_flavour, :accent_flavour, :create_name)
+  	def order_params
+  	params.require(:order_tea).permit(:tealeaf, :base_flavour, :accent_flavour, :create_name)
   	end
 end

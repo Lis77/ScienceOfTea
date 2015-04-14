@@ -2,7 +2,12 @@ source 'https://rubygems.org'
 
 
 gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
+
 gem 'bootstrap-sass', '~> 3.3.4'
+gem 'simple_form'
+
+
+
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
