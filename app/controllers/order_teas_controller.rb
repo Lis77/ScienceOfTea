@@ -8,7 +8,7 @@ class OrderTeasController < ApplicationController
      @order_tea = OrderTea.new(order_params)
 
      if @order_tea.save
-        redirect_to root_path, notice: 'Brilliance, creation finished!'
+        redirect_to approveds_path, notice: 'Brilliance, creation finished!'
     else
     	render 'new'
 	end

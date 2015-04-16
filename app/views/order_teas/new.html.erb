@@ -1,30 +1,33 @@
-<h1> Discover your own Laws of Creation!</h1>
+<h2 id="create"> Create Tea with Science of TeaCreator</h2>
+<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
 </br>
 </br>
 
 <%= simple_form_for @order_tea do |f| %>
   <%= f.input :tealeaf, required: true %>
   </br>
+  </br>
   <%= f.input :base_flavour, required: true %>
+  </br>
   </br>
   <%= f.input :accent_flavour, required: true %>
   </br>
+  </br>
   <%= f.input :create_name, required: true %>
   </br>
+  </br>
   <%= f.button :submit %>
+  
+
+
+<div id ="web2_button">
+  <%= link_to "Web Site", "http://mdmgraphicdesign.com/ScienceOfTea/" %>
+</div>
 <% end %>
+<div id ="recipes">
+    <p>Scientists stand on the shoulders of giants.</br>Therefore, so should you!</br>Check out our recipes for inspiration!</p>
+   
+    
 </br>
 </br>
 
-<%= form_tag charges_path do %>
-  <article>
-    <label class="amount">
-      <span>Amount: $13.00</span>
-    </label>
-  </article>
-
-  <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-          data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
-          data-description="The cost of creation:"
-          data-amount="1300"></script>
-<% end %>
