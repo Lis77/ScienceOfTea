@@ -8,7 +8,7 @@ end
 
 
 def create
-     @ocharge = Charge.new(order_params)
+     @charge = Charge.new(order_params)
 
      if @charge.save
         redirect_to root_path, notice: 'Your Charge is complete'
@@ -18,7 +18,7 @@ def create
 end 
 
 
-#form must go in here
+
 
 def create
   # Amount in cents

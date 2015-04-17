@@ -1,9 +1,12 @@
 Rails.application.routes.draw do
 
+  
+
   resources :pages
   resources :order_teas
   resources :approveds
-  resources :charges
+  resources :advices
+  
 
   root 'pages#show'
   # The priority is based upon order of creation: first created -> highest priority.

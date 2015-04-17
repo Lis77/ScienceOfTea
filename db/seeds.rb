@@ -5,3 +5,13 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+
+Advices.destroy_all
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")
+Advices.create!(our_name: true, leaf_advice: "", base_advice: "", accent_advice: "", img_url: "http://www.poets.org/poetsorg/poem/anyone-lived-pretty-how-town")

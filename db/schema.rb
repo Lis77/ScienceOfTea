@@ -11,18 +11,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150401205500) do
+ActiveRecord::Schema.define(version: 20150417195028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
+  create_table "advices", force: :cascade do |t|
+    t.string   "our_name"
+    t.string   "leaf_advice"
+    t.string   "base_advice"
+    t.string   "accent_advice"
+    t.string   "image_url"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
+  end
+
   create_table "approveds", force: :cascade do |t|
+    t.integer  "order_teas_id"
     t.string   "summary"
     t.string   "thank_you"
     t.string   "decline"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
+
+  add_index "approveds", ["order_teas_id"], name: "index_approveds_on_order_teas_id", using: :btree
 
   create_table "charges", force: :cascade do |t|
     t.datetime "created_at", null: false
