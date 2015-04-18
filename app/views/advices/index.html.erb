@@ -1,0 +1,10 @@
+
+<% @advices.each do |advice| 
+  link_advice = advice.our_name.titleize </br>
+    advice.leaf_advice.titleize </br>
+    advice.base_advice.titleize </br>
+    advice.accent_advice.titleize %>
+
+<h2><%= link_to(link_advice, advice_path(advice)) %></h2>
+
+<% end %>

@@ -28,11 +28,12 @@ ActiveRecord::Schema.define(version: 20150417195028) do
 
   create_table "approveds", force: :cascade do |t|
     t.integer  "order_teas_id"
-    t.string   "summary"
-    t.string   "thank_you"
-    t.string   "decline"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.string   "order_summary"
+    t.string   "client_name"
+    t.string   "client_email"
+    t.string   "client_address"
+    t.datetime "created_at",     null: false
+    t.datetime "updated_at",     null: false
   end
 
   add_index "approveds", ["order_teas_id"], name: "index_approveds_on_order_teas_id", using: :btree

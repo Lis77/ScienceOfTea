@@ -1,7 +1,7 @@
 class AdvicesController < ApplicationController
 
 	def index
-		@advices = Advice.where({our_name: true})
+		@advices = Advice.all
 	end
 
 
