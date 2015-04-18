@@ -1,10 +1,20 @@
 
-<% @advices.each do |advice| 
-  link_advice = advice.our_name.titleize </br>
-    advice.leaf_advice.titleize </br>
-    advice.base_advice.titleize </br>
-    advice.accent_advice.titleize %>
 
-<h2><%= link_to(link_advice, advice_path(advice)) %></h2>
+<h1> Our Favourite Creations </h1>
+<div id="backHome">
+<%= link_to 'Home', new_order_tea_path %>
+</div>
+<div id ="background1"> <%= image_tag("blackboard.jpg") %> </div>
+<p>
+  <% @advices.each do |a| 
+  link_advice = a.our_name.titleize + " " +
+    a.leaf_advice.titleize + " " +
+    a.base_advice.titleize  + " " +
+    a.accent_advice.titleize %>
+</p>
+
+
+
+
 
 <% end %>

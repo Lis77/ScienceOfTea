@@ -3,12 +3,11 @@
 <h1> Our Favourite Creations </h1>
 
 <div id ="favourite_tea">
- <%= image_tag(@advice.img_url) %>
+
+<div id="teaimg"><%= image_tag(@advice.img_url) %> </div>
 <h3> Tea name: <%= @advice.our_name %></h3>
 <h4> Tea Leaf Used: <%= @advice.leaf_advice %></h4>
 <h4> Base Flavour Used: <%= @advice.base_advice %></h4>
 <h4> Accent Flavour Used: <%= @advice.accent_advice %></h4>
 </div>	
   
-
-<div> Source: <%= link_to(@advice.source)%></div>

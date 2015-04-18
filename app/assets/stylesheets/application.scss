@@ -54,7 +54,7 @@ div#web_button
 
 div#web2_button
 {
-	position:absolute;
+	position:fixed;
 	left:-50x;
 	top: 600px;
 	font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
@@ -64,7 +64,7 @@ div#web2_button
 
 h1
 {
-position: relative;
+position: absolute;
 left: 350px;
 font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
 letter-spacing: 0px;
@@ -98,7 +98,8 @@ input#order_tea_tealeaf
 	width: 320px;
 	height: 35px;
 	color: #09C;
-	font-size: 20px;
+	font-size: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -117,7 +118,8 @@ input#order_tea_base_flavour
 	width: 320px;
 	height: 35px;
 	color: #09C;
-	font-size: 20px;
+	font-size: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -137,7 +139,8 @@ input#order_tea_accent_flavour
    width: 320px;
 	height: 35px;
 	color: #09C;
-	font-size: 20px;
+	font-size: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -156,7 +159,8 @@ input#order_tea_create_name
 	width: 320px;
 	height: 35px;
 	color: #09C;
-	font-size: 20px;
+	font-size: 15px;
+	font-family: 'Gloria Hallelujah', cursive;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -181,7 +185,7 @@ h2
 label.string.required
 {
 	font-family:"Myriad Pro Light", "Myriad Pro Unicode", Arial, sans-serif;
-letter-spacing: 0px;
+    letter-spacing: 0px;
 	font-size: 23px;
 	color: #09C;
 }
@@ -202,6 +206,7 @@ input.button
 div#recipes
 {
 	position:absolute;
+	
 	left: 850px;
 	top: 280px;
 
@@ -209,13 +214,23 @@ div#recipes
 
 div#recipes
 {
-  font-family: 'Poiret One', serif;
+  font-family: 'Gloria Hallelujah', cursive;
   font-size: 23px;
   color:pink;
-  
+}
 
-
+div#advices
+{
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 23px;
+  color:pink;
+  position:absolute;
+	
+	left: 850px;
+	top: 410px;
 
 }
+
+
 
 
