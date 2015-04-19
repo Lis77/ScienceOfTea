@@ -38,7 +38,7 @@ div#create_button
  left: 1600px;
  top: 1500px;
  bottom: 20px;
- font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
+ font-family: 'Raleway', sans-serif;
  letter-spacing: 0px;
  font-size: 40px;
 
@@ -50,7 +50,7 @@ div#web_button
  left: 550px;
  top: 1450px;
  bottom: 20px;
- font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
+ font-family: 'Raleway', sans-serif;
  letter-spacing: 0px;
  font-size: 40px;
 
@@ -61,7 +61,7 @@ div#web2_button
 	position:absolute;
 	left:-50x;
 	top: 600px;
-	font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
     letter-spacing: 0px;
 	font-size: 25px;
 }
@@ -71,7 +71,7 @@ h1
 position: absolute;
 left: 750px;
 top: 250px;
-font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
+font-family: 'Raleway', sans-serif;
 letter-spacing: 0px;
  font-size: 65px;
 
@@ -89,7 +89,7 @@ position: relative;
 
 form {
     position: absolute;
-    left: 200px;
+    left: 500px;
     top: 300px;
   display: block;
   margin-top: 0em;
@@ -104,7 +104,7 @@ input#order_tea_tealeaf
 	height: 35px;
 	color: #09C;
 	font-size: 15px;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Raleway', sans-serif;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -124,7 +124,7 @@ input#order_tea_base_flavour
 	height: 35px;
 	color: #09C;
 	font-size: 15px;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Raleway', sans-serif;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -145,7 +145,7 @@ input#order_tea_accent_flavour
 	height: 35px;
 	color: #09C;
 	font-size: 15px;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Raleway', sans-serif;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -165,7 +165,49 @@ input#order_tea_create_name
 	height: 35px;
 	color: #09C;
 	font-size: 15px;
-	font-family: 'Gloria Hallelujah', cursive;
+	font-family: 'Raleway', sans-serif;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+
+input#order_tea_client_name
+{
+margin-left: 90px;
+	width: 320px;
+	height: 35px;
+	color: #09C;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	
+}
+
+
+input#order_tea_client_address
+{
+margin-left: 60px;
+	width: 320px;
+	height: 35px;
+	color: #09C;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
 text-decoration: none;
 -webkit-border-radius: 10px;
 -moz-border-radius: 10px;
@@ -179,6 +221,28 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 }
 
 
+input#order_tea_client_email
+{
+margin-left: 90px;
+	width: 320px;
+	height: 35px;
+	color: #09C;
+	font-size: 15px;
+	font-family: 'Raleway', sans-serif;
+text-decoration: none;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+	
+}
+
+
 h2
 {
 	position:absolute;
@@ -189,21 +253,31 @@ h2
 
 label.string.required
 {
-	font-family:"Myriad Pro Light", "Myriad Pro Unicode", Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
     letter-spacing: 0px;
 	font-size: 23px;
 	color: #09C;
 }
 
+label.email.required
+{
+    ffont-family: 'Raleway', sans-serif;
+    letter-spacing: 0px;
+	font-size: 23px;
+	color: #09C;
+	
+}
+
 input.button
 {
     position:absolute;
-    top: 350px;
-    left: 410px;
-    width: 150px;
-    height: 30px;
+    top: 550px;
+    left: 375px;
+    width: 175px;
+    height: 50px;
 	color: #09C;
-	font-family:"Myriad Pro Light", "Myriad Pro Unicode", Arial, sans-serif;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
     letter-spacing: 0px;
 
 }
@@ -212,26 +286,26 @@ div#recipes
 {
 	position:absolute;
 	
-	left: 850px;
+	left: 1250px;
 	top: 280px;
 
 }
 
 div#recipes
 {
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 23px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 27px;
   color:pink;
 }
 
 div#advices
 {
-  font-family: 'Gloria Hallelujah', cursive;
-  font-size: 23px;
-  color:pink;
+  font-family: 'Raleway', sans-serif;
+  font-size: 27px;
+  color:blue;
   position:absolute;
 	
-	left: 850px;
+	left: 1300px;
 	top: 410px;
 
 }

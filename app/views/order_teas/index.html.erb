@@ -1,8 +1,7 @@
 
 
 <h2 id="create"> Create Tea with Science of TeaCreator</h2>
-<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-</br>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700' rel='stylesheet' type='text/css'>
 </br>
 
 <%= simple_form_for @order_tea do |f| %>
@@ -16,6 +15,15 @@
   </br>
   </br>
   <%= f.input :create_name, required: true %>
+  </br>
+  </br>
+  <%= f.input :client_name, required: true %>
+  </br>
+  </br>
+  <%= f.input :client_address, required: true %>
+  </br>
+  </br>
+  <%= f.input :client_email, required: true %>
   </br>
   </br>
   <%= f.button :submit %>

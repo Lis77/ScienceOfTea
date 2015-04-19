@@ -17,6 +17,7 @@ end
 
 	private
   	def order_params
-  	params.require(:order_tea).permit(:tealeaf, :base_flavour, :accent_flavour, :create_name)
+  	params.require(:order_tea).permit(:tealeaf, :base_flavour, :accent_flavour, :create_name, 
+                  :client_name, :client_address, :client_email)
   	end
 end

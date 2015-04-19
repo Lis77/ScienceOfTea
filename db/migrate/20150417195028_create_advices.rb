@@ -1,11 +1,9 @@
 class CreateAdvices < ActiveRecord::Migration
   def change
     create_table :advices do |t|
-     t.string :our_name
-     t.string :leaf_advice
-     t.string :base_advice
-     t.string :accent_advice
-     t.string :image_url
+     t.string :tea_leaf_list
+     t.string :leaf_base_list
+     t.string :base_accent_list
      t.timestamps null: false
     end
   end

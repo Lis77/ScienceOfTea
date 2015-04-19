@@ -17,13 +17,11 @@ ActiveRecord::Schema.define(version: 20150417195028) do
   enable_extension "plpgsql"
 
   create_table "advices", force: :cascade do |t|
-    t.string   "our_name"
-    t.string   "leaf_advice"
-    t.string   "base_advice"
-    t.string   "accent_advice"
-    t.string   "image_url"
-    t.datetime "created_at",    null: false
-    t.datetime "updated_at",    null: false
+    t.string   "tea_leaf_list"
+    t.string   "leaf_base_list"
+    t.string   "base_accent_list"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
   end
 
   create_table "approveds", force: :cascade do |t|
