@@ -1,6 +1,7 @@
-<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+
 
 <h2 id="create"> Create Tea with Science of TeaCreator</h2>
+<link href='http://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
 </br>
 </br>
 
@@ -18,17 +19,19 @@
   </br>
   </br>
   <%= f.button :submit %>
-  
 
 
-<div id ="web2_button">
-  <%= link_to "Back", new_pages_path %>
-</div>
+
+  <div id ="web2_button">
+   <%= link_to "Back", root_path %>
+  </div>
 <% end %>
 <div id ="recipes">
-    <p>Scientists stand on the shoulders of giants.</br>Therefore, so should you!</br>Check out our favourites for inspiration!</p>
-   
-    
+    <p>Scientists stand on the shoulders of giants.</br>Therefore, so should you!</br>Check out our recipes for inspiration!</p>
+   </div>
+    <div id ="advices">
+  <%= link_to "Our Favourites" , advices_path %>
+  </div>
 </br>
 </br>
 

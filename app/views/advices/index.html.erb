@@ -2,15 +2,14 @@
 
 <h1> Our Favourite Creations </h1>
 <div id="backHome">
-<%= link_to 'Home', new_order_tea_path %>
+<%= link_to 'Back To Order', new_order_tea_path %>
 </div>
 <div id ="background1"> <%= image_tag("blackboard.jpg") %> </div>
 <p>
   <% @advices.each do |a| 
-  link_advice = a.our_name.titleize + " " +
-    a.leaf_advice.titleize + " " +
-    a.base_advice.titleize  + " " +
-    a.accent_advice.titleize %>
+  link_advice = a.our_name.titleize %>
+
+  <h2><%= link_to(link_advice, a_path(a)) %></h2>
 </p>
 
 

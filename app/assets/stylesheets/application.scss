@@ -21,6 +21,10 @@
 @import "bootstrap";
 
 
+@body-bg #fff;
+
+
+
 
 body
 {
@@ -31,8 +35,8 @@ body
 div#create_button
 {
  position: relative;
- left: 1200px;
- top: 745px;
+ left: 1600px;
+ top: 1500px;
  bottom: 20px;
  font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
  letter-spacing: 0px;
@@ -42,9 +46,9 @@ div#create_button
 
 div#web_button
 {
- position:absolute;
- left: 300px;
- top: 1160px;
+ position:relative;
+ left: 550px;
+ top: 1450px;
  bottom: 20px;
  font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
  letter-spacing: 0px;
@@ -54,21 +58,22 @@ div#web_button
 
 div#web2_button
 {
-	position:fixed;
+	position:absolute;
 	left:-50x;
 	top: 600px;
 	font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
- letter-spacing: 0px;
+    letter-spacing: 0px;
 	font-size: 25px;
 }
 
 h1
 {
 position: absolute;
-left: 350px;
+left: 750px;
+top: 250px;
 font-family:"Myriad Pro Light Semi Condensed", "Myriad Pro Unicode", Arial, sans-serif;
 letter-spacing: 0px;
- font-size: 75px;
+ font-size: 65px;
 
 }
 div.logo.cycle-slideshow
@@ -232,5 +237,11 @@ div#advices
 }
 
 
-
+div.logo.cycle-slideshow
+{
+   position: absolute;
+   height:500px;
+   width: 700px;
+	
+}
 

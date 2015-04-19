@@ -48,6 +48,9 @@ ActiveRecord::Schema.define(version: 20150417195028) do
     t.string   "base_flavour"
     t.string   "accent_flavour"
     t.string   "create_name"
+    t.string   "client_name"
+    t.string   "client_address"
+    t.string   "client_email"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end

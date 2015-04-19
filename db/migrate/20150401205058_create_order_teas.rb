@@ -5,6 +5,9 @@ class CreateOrderTeas < ActiveRecord::Migration
     	t.string :base_flavour
     	t.string :accent_flavour
     	t.string :create_name
+    	t.string :client_name
+    	t.string :client_address
+    	t.string :client_email
 
       t.timestamps null: false
     end

@@ -2,7 +2,10 @@ class ApprovedsController < ApplicationController
 
 
 	def show
-		@approved = Approved.find(params[:id])
+		@approved = Approved.all
 
 	end
+
+
+
 end
