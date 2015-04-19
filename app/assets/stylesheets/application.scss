@@ -24,13 +24,28 @@
 
 body
 {
+    position:relative;
 	width: 1600px;
-	height: 1000px;
+	height: 1600px;
 }
+
+div#tealogo
+{
+ position: absolute;
+ top: 10px;
+ left: 150px;
+ bottom: 1000px;
+ width: 150px;
+ height: 160px;
+
+}
+
+
 
 
 div#background
 {
+ position: fixed;
  background-repeat: no-repeat;
  background-attachment: fixed;
 }
@@ -39,9 +54,9 @@ div#background
 
 div#create_button
 {
- position: relative;
+ position:absolute;
  left: 1600px;
- top: 1600px;
+ top: 1700px;
  bottom: 20px;
  font-family: 'Raleway', sans-serif;
  letter-spacing: 0px;
@@ -51,9 +66,9 @@ div#create_button
 
 div#web_button
 {
- position:relative;
+ position:absolute;
  left: 550px;
- top: 1550px;
+ top: 1700px;
  bottom: 20px;
  font-family: 'Raleway', sans-serif;
  letter-spacing: 0px;
@@ -63,12 +78,12 @@ div#web_button
 
 div#web2_button
 {
-	position:absolute;
-	left:-50x;
-	top: 600px;
+	position:relative;
+	left:300px;
+	top: 1000px;
 	font-family: 'Raleway', sans-serif;
     letter-spacing: 0px;
-	font-size: 25px;
+	font-size: 35px;
 }
 
 h1
@@ -83,7 +98,7 @@ letter-spacing: 0px;
 }
 div.logo.cycle-slideshow
 {
-position: relative;
+position:absolute;
     top: 10px;
     right: 5px;
     left: 300px;
@@ -95,7 +110,7 @@ position: relative;
 form {
     position: absolute;
     left: 1000px;
-	top: 380px;
+	top: 350px;
   display: block;
   margin-top: 0em;
 }
@@ -258,8 +273,8 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 h2
 {
 	position:absolute;
-	top: 120px;
-	left: 450px;
+	top: 160px;
+	left: 1000px;
 	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
 	font-size: 60px;
 	color: #FFFFF5;
@@ -304,7 +319,7 @@ div#recipes
 	position:absolute;
 	
 	left: 300px;
-    top: 400px;
+    top: 550px;
 
 }
 
@@ -323,7 +338,7 @@ div#advices
   position:absolute;
 	
 	left: 500px;
-    top: 650px;
+    top: 750px;
 
 }
 
@@ -331,6 +346,7 @@ div#advices
 div.logo.cycle-slideshow
 {
    position: absolute;
+    bottom: 300px;
    height:500px;
    width: 700px;
 	

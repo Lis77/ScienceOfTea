@@ -4,6 +4,8 @@
 </br>
 </br>
 
+ <div id="tealogo"><%= image_tag("tealogo.png") %></div>
+
 <%= simple_form_for @order_tea do |f| %>
   <%= f.input :tealeaf, required: true %>
   </br>
@@ -28,18 +30,17 @@
   </br>
   <%= f.button :submit %>
 
-
-
-  <div id ="web2_button">
-   <%= link_to "Back", root_path %>
   </div>
 <% end %>
 <div id ="recipes">
-    <p>Science of Tea welcomes you to </br>the heart of where creation happens.</br>It's your time to create a tea unique </br>to your tastes!Below is a list of what </br>the lab has in stock for you to experiment with!</p>
+    <p>Science of Tea welcomes you to </br>the heart of where creation happens.</br>It's your time to create a tea unique </br>to your tastes! Below is a list of what </br>the lab has in stock for you to experiment with!</p>
    </div>
-    <div id ="advices">
+   <div id ="advices">
   <%= link_to "Lab Inventory" , advices_path %>
   </div>
+   <div id ="web2_button">
+   <%= link_to "IntroTEA", root_path %>
+    
 </br>
 </br>
 

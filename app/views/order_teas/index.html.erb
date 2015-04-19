@@ -8,6 +8,7 @@
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700' rel='stylesheet' type='text/css'>
 </br>
 </br>
+<div id="tealogo"><%= image_tag("tealogo.png") %></div>
 
 <%= simple_form_for @order_tea do |f| %>
   <%= f.input :tealeaf, required: true %>
@@ -33,17 +34,19 @@
   </br>
   <%= f.button :submit %>
 
-
-
-  <div id ="web2_button">
-   <%= link_to "Back", root_path %>
-  </div>
 <% end %>
 <div id ="recipes">
     <p>Science of Tea welcomes you to the heart of where creation happens.</br>It's your time to create a tea unique to your tastes!</br>Below is a list of what the lab has in stock for you to experiment with!</p>
    </div>
-    <div id ="advices">
+   <div id ="advices">
   <%= link_to "Lab Inventory " , advices_path %>
   </div>
+   <div id ="web2_button">
+   <%= link_to "IntroTEA", root_path%>
+  </div>
+   </br>
+</br> 
+</br>
+</br>
 </br>
 </br>
