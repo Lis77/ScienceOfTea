@@ -21,16 +21,21 @@
 @import "bootstrap";
 
 
-@body-bg #fff;
-
-
-
 
 body
 {
- width: 1400px;
- height: 1000px;
+	width: 1600px;
+	height: 1000px;
 }
+
+
+div#background
+{
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+}
+ 
+ 
 
 div#create_button
 {
@@ -89,8 +94,8 @@ position: relative;
 
 form {
     position: absolute;
-    left: 500px;
-    top: 300px;
+    left: 1000px;
+	top: 380px;
   display: block;
   margin-top: 0em;
 }
@@ -99,10 +104,11 @@ form {
 input#order_tea_tealeaf
 {
 	
-	margin-left: 141px;
+	margin-left: 142px;
 	width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -119,10 +125,11 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 
 input#order_tea_base_flavour
 {
-	margin-left: 82px;
+	margin-left: 83px;
 	width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -143,7 +150,8 @@ input#order_tea_accent_flavour
    margin-left: 61px;
    width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -163,7 +171,8 @@ input#order_tea_create_name
 	margin-left: 83px;
 	width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -183,7 +192,8 @@ input#order_tea_client_name
 margin-left: 90px;
 	width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -205,7 +215,8 @@ input#order_tea_client_address
 margin-left: 60px;
 	width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -226,7 +237,8 @@ input#order_tea_client_email
 margin-left: 90px;
 	width: 320px;
 	height: 35px;
-	color: #09C;
+	background: #222222;
+	color: #FFFFF5;
 	font-size: 15px;
 	font-family: 'Raleway', sans-serif;
 text-decoration: none;
@@ -246,9 +258,11 @@ box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
 h2
 {
 	position:absolute;
-	top: 40px;
+	top: 120px;
 	left: 450px;
-	font-size: 40px;
+	font-family: "Myriad Pro", "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+	font-size: 60px;
+	color: #FFFFF5;
 }
 
 label.string.required
@@ -256,15 +270,17 @@ label.string.required
 	font-family: 'Raleway', sans-serif;
     letter-spacing: 0px;
 	font-size: 23px;
-	color: #09C;
+	color: #FFFFF5;
+	letter-spacing: 1px;
 }
 
 label.email.required
 {
-    ffont-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 0px;
 	font-size: 23px;
-	color: #09C;
+	color: #FFFFF5;
+	letter-spacing: 1px;
 	
 }
 
@@ -275,7 +291,8 @@ input.button
     left: 375px;
     width: 175px;
     height: 50px;
-	color: #09C;
+    background:#222222;
+	color: #FFFFF5;
 	font-family: 'Raleway', sans-serif;
 	font-size: 18px;
     letter-spacing: 0px;
@@ -286,27 +303,27 @@ div#recipes
 {
 	position:absolute;
 	
-	left: 1250px;
-	top: 280px;
+	left: 300px;
+    top: 400px;
 
 }
 
 div#recipes
 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 27px;
-  color:pink;
+  font-family: 'Indie Flower', cursive;
+  font-size: 29px;
+  color:#FFFFF5;
 }
 
 div#advices
 {
-  font-family: 'Raleway', sans-serif;
-  font-size: 27px;
-  color:blue;
+  font-family: 'Indie Flower', cursive;
+  font-size: 40px;
+  color:#FFFFF5;
   position:absolute;
 	
-	left: 1300px;
-	top: 410px;
+	left: 500px;
+    top: 650px;
 
 }
 
