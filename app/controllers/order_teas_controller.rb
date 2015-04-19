@@ -10,7 +10,8 @@ class OrderTeasController < ApplicationController
      if @order_tea.save
         redirect_to approveds_path, notice: 'Order has been created.'
     else
-    	render 'new'
+    	flash[:error] = e.message
+  redirect_to create_tea_path
 	end
 end	
 
