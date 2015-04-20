@@ -8,7 +8,7 @@
 </br>
 <div id="tealogo"><%= image_tag("tealogo.png") %></div>
 
-<%= simple_form_for @order_tea do |f| %>
+<div class="tea_form"><%= simple_form_for @order_tea do |f| %>
   <%= f.input :tealeaf, required: true %>
   </br>
   </br>
@@ -32,14 +32,16 @@
   </br>
   <%= f.button :submit %>
   <h5> *All fields required to make an order </h5>
+</div>
+  
 <% end %>
 
 <div id ="recipes">
 
     <p>Science of Tea welcomes you to </br> the heart of where creation happens.</p>
      <p>Don't let curiosity fizzle to nothing!</br>
-      fill out the CreateTEA form and </br> enjoy the joys of a good  cup of </br>tea!
-      It's your time to create a </br>tea unique to your tastes! Below is </br> a list of what the lab has in stock</br> for you to experiment with!</p>
+      Fill out the CreateTEA form and </br> savour the joys of a grande cup of </br>tea!
+      You can define a law of </br>tea unique to your tastes! Below is </br> a list of what the lab has in stock</br> for you to experiment with!</br>Each custom order costs $13</p>
 </div>
 
   <div id ="advices">

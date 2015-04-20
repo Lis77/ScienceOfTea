@@ -146,7 +146,49 @@ div#web_button
  font-family: 'Raleway', sans-serif;
  letter-spacing: 0px;
  font-size: 40px;
+ font-family: 'Raleway', sans-serif;
 
+}
+
+div#einstein_pic
+{
+	position:absolute;
+	top:470px;
+	left: 300px;
+	height:150px;
+	width: 200px;
+}
+
+h4#einstein_title
+{
+   position:absolute;
+   top: 400px;
+   left: 300px;
+   color: white;
+   font-size: 24px;
+}
+
+
+div#einstein_quote
+{
+   position: absolute;
+   top: 775px;
+   left: 340px;
+   color: white;
+   font-family: 'Indie Flower', cursive;
+   font-size: 26px;
+
+}
+
+
+div#elink
+{
+	
+  position:absolute;
+  top: 885px;
+  left: 420px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 30px;
 }
 
 div#web2_button
@@ -157,14 +199,16 @@ div#web2_button
 	font-family: 'Raleway', sans-serif;
     letter-spacing: 0px;
 	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
 }
 
 div#create2_button
 {
 	position:absolute;
-	left:1800px;
+	left:1750px;
 	top: 1100px;
 	font-size: 35px;
+	font-family: 'Raleway', sans-serif;
 }
 
 h1
@@ -188,12 +232,26 @@ position:absolute;
 
 }
 
-form {
+div.tea_form {
     position: absolute;
     left: 1000px;
 	top: 350px;
   display: block;
   margin-top: 0em;
+}
+
+div.payment_form
+{
+	position:absolute;
+	left: 1300px;
+	top: 800px;
+	display: block;
+	background:#323A45;
+	color: #FFFFF5;
+	font-family: 'Raleway', sans-serif;
+	font-size: 18px;
+    letter-spacing: 0px;
+
 }
 
 
@@ -429,7 +487,7 @@ div#advices
   color:#FFFFF5;
   position:absolute;
   left: 500px;
-  top: 775px;
+  top: 810px;
 
 }
 

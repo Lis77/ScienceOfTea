@@ -3,8 +3,28 @@
 <div id="tealogo"><%= image_tag("tealogo.png") %></div>
 <h2 id="review"> ReviewTEA </h2>
 
+<div id ="web2_button">
+   <%= link_to "IntroTEA", root_path%>
+ </div>
+   
+<div id= "create2_button">
+  <%= link_to 'CreateTEA', new_order_tea_path %>
+</div>
 
 
+<div id="einstein_pic"><%= image_tag("einstein.png") %></div>
+
+<h4 id="einstein_title"> Einstein Says: </h4>
+<div id ="einstein_quote">
+    <p>Be creative, be original, but also </p> make sure your order is correct!</p>
+</div>
+
+<div id ="elink">
+  <%= link_to "Advice From Einstein" ,'http://www.brainyquote.com/quotes/authors/a/albert_einstein.html' %>
+</div>
+
+
+<div class="payment_form">
 <%= form_tag approveds_path do %>
   <article>
     <label class="amount">
@@ -16,4 +36,5 @@
           data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
           data-description="The cost of creation:"
           data-amount="1300"></script>
+ </div>         
 <% end %>
