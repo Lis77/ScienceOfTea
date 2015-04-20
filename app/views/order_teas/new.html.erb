@@ -1,10 +1,12 @@
 <div id="background"><%= image_tag("blackboard.jpg") %></div>
-<h2 id="create">CreateTEA</h2>
+
+
+
+<h2 id="create"> CreateTEA</h2>
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700' rel='stylesheet' type='text/css'>
 </br>
 </br>
-
- <div id="tealogo"><%= image_tag("tealogo.png") %></div>
+<div id="tealogo"><%= image_tag("tealogo.png") %></div>
 
 <%= simple_form_for @order_tea do |f| %>
   <%= f.input :tealeaf, required: true %>
@@ -25,22 +27,28 @@
   <%= f.input :client_address, required: true %>
   </br>
   </br>
-  <%= f.input :client_email, required: true %>
+  <%= f.input :client_email,required: true %>
   </br>
   </br>
   <%= f.button :submit %>
-
-  </div>
+  <h5> *All fields required to make an order </h5>
 <% end %>
+
 <div id ="recipes">
-    <p>Science of Tea welcomes you to </br>the heart of where creation happens.</br>It's your time to create a tea unique </br>to your tastes! Below is a list of what </br>the lab has in stock for you to experiment with!</p>
-   </div>
-   <div id ="advices">
-  <%= link_to "Lab Inventory" , advices_path %>
+
+    <p>Science of Tea welcomes you to </br> the heart of where creation happens.</p>
+     <p>Don't let curiosity fizzle to nothing!</br>
+      fill out the CreateTEA form and </br> enjoy the joys of a good  cup of </br>tea!
+      It's your time to create a </br>tea unique to your tastes! Below is </br> a list of what the lab has in stock</br> for you to experiment with!</p>
+</div>
+
+  <div id ="advices">
+    <%= link_to "Lab Inventory " , advices_path %>
   </div>
-   <div id ="web2_button">
-   <%= link_to "IntroTEA", root_path %>
-    
-</br>
-</br>
+
+  <div id ="web2_button">
+    <%= link_to "IntroTEA", root_path%>
+ </div>
+   
+   
 
