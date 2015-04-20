@@ -90,14 +90,42 @@ h3#listtitles
 
  }
 
-
- div.summary_for_tea
+ h3
  {
-    position:absolute;
-	left: 1300px;
-	top: 300px;
+  font-size:35px;
+  line-height:120%;
+  color:white;
  }
 
+ h4
+ {
+  font-size:20px;
+  line-height: 120%;
+  color:#55ACAC;
+  font-family: 'Raleway', sans-serif;
+ 
+ }
+
+
+p#summary_paragraph
+{
+	font-size:21px;
+	color:#B8DCDC;;
+	font-family: 'Raleway', sans-serif;
+
+
+}
+
+div.summary
+
+{
+	position:absolute;
+	left:1000px;
+	top: 300px;
+
+}
+
+ 
  div#perfect_tea
  {
    position: absolute;

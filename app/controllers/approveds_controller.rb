@@ -11,7 +11,7 @@ class ApprovedsController < ApplicationController
 
 	def new
 		@order_tea = OrderTea.find(params[:order_tea_id])
-		@approved = @order_tea.approveds.new
+		@approved = Approved.new
 	end
 
 

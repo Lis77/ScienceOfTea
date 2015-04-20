@@ -1,5 +1,6 @@
 class Approved < ActiveRecord::Base
-	has_many :order_teas, dependent: :nullify
+
+	belongs_to :order_tea
 
 	
 end
