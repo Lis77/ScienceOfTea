@@ -1,3 +1,4 @@
+# is this used anywhere?
 class PagesController < ApplicationController
 
 def index

@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
-  
 
+  # don't forget to limit your routes to what you actually have implemented, e.g.
+  #   resources :order_teas, only: [:new, :create]
   resources :pages
   resources :order_teas
   resources :approveds
   resources :advices
-  
+
 
   root 'pages#show'
   # The priority is based upon order of creation: first created -> highest priority.

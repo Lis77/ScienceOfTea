@@ -1,11 +1,8 @@
 class ChargesController < ApplicationController
 
 	def new
-
     @charge = Charge.new
-end
-
-
+  end
 
 def create
   # Amount in cents
@@ -23,16 +20,14 @@ def create
     :currency    => 'usd'
   )
 
-rescue Stripe::CardError => e
-  flash[:error] = e.message
-  redirect_to charges_path
-end
-end
+  rescue Stripe::CardError => e
+    flash[:error] = e.message
+    redirect_to charges_path
+  end
 
+  private
 
-private
-    def order_params
+  def order_params
     params.require(:charges).permit(:email, :card)
-    end
-
-
+  end
+end
